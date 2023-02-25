@@ -1,0 +1,9 @@
+image:
+  repository: httpd
+  tag: "2.4.46"
+  pullPolicy: IfNotPresent
+replicaCount: 1
+service:
+  name: mychart
+  type: ClusterIP
+  port: 80

@@ -1,0 +1,9 @@
+apiVersion: v2
+name: mychart
+description: A Helm chart for deploying Apache web server
+version: 0.1.0
+appVersion: 2.4.46
+dependencies:
+  - name: apache
+    repository: https://charts.bitnami.com/bitnami
+    version: 9.3.8
