@@ -13,11 +13,6 @@
         ],
         "automerge": true
       }
-    ],
-    "packageFiles": [
-    "Chart.yaml",
-    "templates/deployment.yaml"
-  ],
-  "commitMessagePrefix": "chore(deps): update ${packageName} to version ${packageVersion}"
+    ]
   }
   
