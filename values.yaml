@@ -1,6 +1,6 @@
 image:
   repository: httpd
-  tag: "2.4.00"
+  tag: "2.4.58"
   pullPolicy: IfNotPresent
 replicaCount: 1
 service:
